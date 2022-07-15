@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500;600&family=Nunito&family=Oswald&family=Roboto+Mono:wght@500&display=swap');
+
+html {
+    font-family: 'Cormorant SC', serif;
+}
+
+#main {
+    display: flex;
+    position: relative;
+    list-style: none;
+    background: #3aafde;
+    color: #000;
+    text-transform: uppercase;
+    margin: auto;
+    justify-content: right;
+}
+
+#main li {
+
+    display: inline-block;
+    position: relative;
+    padding: 15px 20px;
+    cursor: pointer;
+    z-index: 4;
+    transition: 0.3s;
+    min-width: 120px;
+}
+
+#main li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#main li form button {
+    font-size: 0.8rem;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 4;
+    transition: 0.3s;
+    min-width: 120px;
+    border: none;
+    background: transparent;
+}
+
+li:hover {
+    background: #92d3ed !important;
+}

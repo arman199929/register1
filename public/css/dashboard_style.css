@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500;600&family=Nunito&family=Oswald&family=Roboto+Mono:wght@500&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgba(49, 51, 53, 255);
+}
+
+.title {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    padding: 30px 0;
+}
+
+.wrapper {
+    display: contents;
+    align-items: start;
+    justify-content: left;
+    height: 100px;
+    flex-direction: column;
+}
+
+.wrapper .title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 5rem;
+}
+
+.menu {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.menu .list-item {
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    margin: 4px 0;
+}
+
+.list-item .fa {
+    text-align: center;
+    line-height: 40px;
+}
+
+.list-item a span {
+    font-family: 'Nunito', sans-serif;
+    width: 0;
+    left: 40px;
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+    white-space: nowrap;
+    line-height: 40px;
+    transition: 0.3s;
+}
+
+.list-item form button {
+    font-family: 'Nunito', sans-serif;
+    width: 0;
+    left: 40px;
+    padding: 0;
+    border: none;
+    position: absolute;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+    white-space: nowrap;
+    line-height: 40px;
+    transition: 0.3s;
+    background-color: #4f772d;
+}
+
+.list-item a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.list-item form {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.list-item a:hover span {
+    width: auto;
+    padding: 0 20px;
+    overflow: visible;
+}
+
+.list-item form:hover button {
+    width: auto;
+    border: none;
+    cursor: pointer;
+    background-color: #4f772d;
+    padding: 0 20px;
+    overflow: visible;
+}
+
+.home, .home span {
+    background: #132a13
+}
+
+.services, .services span {
+    background: #31572c
+}
+
+.sign-out, .sign-out span {
+    background: #4f772d
+}
+
+
+
+
